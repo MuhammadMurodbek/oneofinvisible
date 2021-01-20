@@ -1,0 +1,68 @@
+.forma-part{
+	width: 100%;
+	height: auto;
+	&-side{
+		border-radius: 25px;
+		padding: 10px;
+		height: auto;
+		margin: 0 auto;
+	}
+}
+.upl-img{
+	display: grid;
+	height: 100%;
+	place-items: center;
+	text-align: center;
+	.con-wrapper{
+		position: relative;
+		height: 300px;
+		width: 100%;
+		border-radius: 10px;
+		border: dashed 2px #c2cdda;
+		background-color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+		.image{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+		.icon{
+			font-size: 100px;
+			color: #9658fe;
+		}
+		.text{
+			font-size: 20px;
+			font-weight: 500;
+			color: #333;
+		}
+		#cancel-btn{
+			position: absolute;
+			top: 15px;
+			right: 15px;
+			cursor: pointer;
+			display: none;
+		}
+
+		.file-name{
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			background-color: #c2cdda;
+			color: #fff;
+			padding: 8px 0;
+			font-size: 18px;
+
+		}
+	}
+}

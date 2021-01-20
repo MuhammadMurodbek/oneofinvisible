@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fa/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/path/to/morris.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js">
+    <title>mypotfo.com</title>
+</head>
+<body>
+    
+    <div class="wrapper d-flex bg-light">
+    	<div class="sidebar-side" id="sideLeft">
+			<button type="button" class="switch-btn btn mb-4">
+				<span class="navbar-toggler-icon"><i class="fas fa-bars text-white "></i></span>
+			</button>
+				<ul class="d-flex flex-column align-items-center justify-content-center" id="ssidebar">
+					<li><a href="index.html" class="text-white"><i class="fas fa-home fa-fw"></i><span class="form-ul">Dashboard</span></a></li>
+					<li><a href="indexProfile.html" class="text-white"><i class="fas fa-newspaper fa-fw"></i><span class="form-ul">Profile</span></a></li>
+					<li><a href="indexTable.html" class="text-white"><i class="fas fa-th fa-fw"></i><span class="form-ul">Data table</span></a></li>
+					<li><a href="indexForm.html" class="text-white"><i class="fas fa-blog fa-fw"></i><span class="form-ul">Form</span></a></li>
+					<li><a href="#" class="text-white"><i class="fas fa-bullhorn fa-fw"></i><span class="form-ul">Elections</span></a></li>
+					<li><a href="#" class="text-white"><i class="fas fa-chart-line fa-fw"></i><span class="form-ul">Progress</span></a></li>
+					<li><a href="#" class="text-white round-shake"><i class="fas fa-chart-pie fa-fw"></i><span class="form-ul">Data</span></a></li>
+					<li><a href="#" class="text-white"><i class="fas fa-cart-plus fa-fw"></i><span class="form-ul">Sale</span></a></li>
+					<li><a href="#" class="text-white"><i class="fas fa-chart-bar fa-fw"></i><span class="form-ul">Chart</span></a></li>
+					<li><a href="#" class="text-white"><i class="fas fa-comment fa-fw"></i><span class="form-ul">Comment</span></a></li>
+				</ul>
+    	</div><!-- /sidebar-side -->
+
+    	<div class="sidebar-right">
+				<ul>
+					<li class="notification"><a href="#" class="text-white">
+					<span><h6 id="bellIcon">6</h6></span>
+					<i class="fas fa-bell shake">
+					</i></a></li>
+					<li><a href="#" class="text-white"><i class="far fa-address-book"></i></a></li>
+					<li><a href="#" class="text-white"><i class="fas fa-flag"></i></a></li>
+					<li><a href="loginForm/index.html" class="text-white"><i class="fas fa-power-off "></i></a></li>
+				</ul>
+    	</div><!-- /sidebar-side -->
+
+<!-- FIRST PART -->
+    	<div class="main-side container-fluid shadow-lg bg-white mx-3 mt-3">
+				<div class="dashboard-part w-100 text-center">
+<!-- btn-sidebar -->    <div class="sidebarBtn shadow-lg">
+						<button type="button" id="sidebarShowBtn" class="btn btn-info  rounded-circle">
+							<span><i class="fas fa-chevron-left"></i></span>
+						</button>
+					</div><!-- /sidebarBtn -->
+					<h3><span class="text-info">Da</span>shbo<span class="text-warning">ard</span></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni maxime voluptate totam.</p>
+				</div><!-- /dashboard-part -->
+				
+				<!--********* NEWS PART **********-->
+				<div class="row main-side-news d-flex align-items-center">
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3 news-div">
+								<div class="extra d-flex align-items-center justify-content-center">
+									<div class="extra-inner">
+										<img src="svg/item/1.svg" alt="sa" class="img-fluid one">
+										<img src="svg/item/2.svg" alt="sa" class="img-fluid two">
+										<img src="svg/item/3.svg" alt="sa" class="img-fluid three">
+									</div><!-- /extra-inner -->
+								</div><!-- /extra -->
+								<div class="news-div-inner text-left">
+									<span class="icon-inner"><i class="fas fa-cart-plus fa-fw fa-3x"></i></span>
+									<h4 class="text-capitalize"><span class="text-warning">sa</span>les</h4>
+									<h5><span class="h3 text-warning">34%</span>of 100%</h5>
+									<div class="progress pro-bar bg-white w-100 mt-3">
+										<div class="progress-bar l-green rounded" role="progressbar" aria-valuenow="34"  aria-valuemin="0" aria-valuemax="100" style="width: 34%;">
+										</div>
+									</div>
+								</div><!-- /news-div-inner -->
+						</div><!-- /news-div -->
+
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 news-div">
+								<div class="extra d-flex align-items-center justify-content-center">
+									<div class="extra-inner">
+										<img src="svg/item/1.svg" alt="sa" class="img-fluid one">
+										<img src="svg/item/2.svg" alt="sa" class="img-fluid two">
+										<img src="svg/item/3.svg" alt="sa" class="img-fluid three">
+									</div><!-- /extra-inner -->
+								</div><!-- /extra -->
+								<div class="news-div-inner text-left">
+									<span class="icon-inner"><i class="fas fa-seedling fa-fw fa-3x"></i></span>
+									<h4 class="text-capitalize">Plan<span class="text-info">ts</span></h4>
+									<h5><span class="h3 text-warning">64%</span>of 100%</h5>
+									<div class="progress pro-bar bg-white w-100">
+										<div class="progress-bar l-green rounded" role="progressbar" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100" style="width: 64%;">
+										</div>
+									</div>
+								</div><!-- /news-div-inner -->
+						</div><!-- /news-div -->
+
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 news-div">
+								<div class="extra d-flex align-items-center justify-content-center">
+									<div class="extra-inner">
+										<img src="svg/item/1.svg" alt="sa" class="img-fluid one">
+										<img src="svg/item/2.svg" alt="sa" class="img-fluid two">
+										<img src="svg/item/3.svg" alt="sa" class="img-fluid three">
+									</div><!-- /extra-inner -->
+								</div><!-- /extra -->
+								<div class="news-div-inner text-left">
+									<span class="icon-inner"><i class="fas fa-store-alt fa-fw fa-3x"></i></span>
+									<h4>Acco<span class="text-primary">moda</span>tion</h4>
+									<h5><span class="h3 text-warning">82%</span>of 100%</h5>
+									<div class="progress pro-bar w-100 bg-white">
+										<div class="progress-bar l-green rounded" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style="width: 82%;">
+										</div>
+									</div>
+								</div><!-- /news-div-inner -->
+						</div><!-- /news-div -->
+
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 news-div">
+								<div class="extra d-flex align-items-center justify-content-center">
+									<div class="extra-inner">
+										<img src="svg/item/1.svg" alt="sa" class="img-fluid one">
+										<img src="svg/item/2.svg" alt="sa" class="img-fluid two">
+										<img src="svg/item/3.svg" alt="sa" class="img-fluid three">
+									</div><!-- /extra-inner -->
+								</div><!-- /extra -->
+								<div class="news-div-inner text-left">
+									<span class="icon-inner"><i class="fas fa-gem fa-fw fa-3x"></i></span>
+									<h4>News</h4>
+									<h5><span class="h3 text-warning">94%</span>of 100%</h5>
+									<div class="progress pro-bar w-100 bg-white">
+										<div class="progress-bar l-green rounded" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100" style="width: 94%;">
+										</div>
+									</div>
+								</div><!-- /news-div-inner -->
+						</div><!-- /news-div -->
+
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 news-div">
+								<div class="extra d-flex align-items-center justify-content-center">
+									<div class="extra-inner">
+										<img src="svg/item/1.svg" alt="sa" class="img-fluid one">
+										<img src="svg/item/2.svg" alt="sa" class="img-fluid two">
+										<img src="svg/item/3.svg" alt="sa" class="img-fluid three">
+									</div><!-- /extra-inner -->
+								</div><!-- /extra -->
+								<div class="news-div-inner text-left">
+									<span class="icon-inner"><i class="fas fa-shopping-basket fa-fw fa-3x"></i></span>
+									<h4>Pro<span class="text-warning">duc</span>ts</h4>
+									<h5><span class="h3 text-warning">55%</span>of 100%</h5>
+									<div class="progress pro-bar w-100 bg-white">
+										<div class="progress-bar l-green rounded" role="progressbar" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">
+										</div>
+									</div>
+								</div><!-- /news-div-inner -->
+						</div><!-- /news-div -->
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 news-div">
+								<div class="extra d-flex align-items-center justify-content-center">
+									<div class="extra-inner">
+										<img src="svg/item/1.svg" alt="sa" class="img-fluid one">
+										<img src="svg/item/2.svg" alt="sa" class="img-fluid two">
+										<img src="svg/item/3.svg" alt="sa" class="img-fluid three">
+									</div><!-- /extra-inner -->
+								</div><!-- /extra -->
+								<div class="news-div-inner text-left">
+									<span class="icon-inner"><i class="fas fa-satellite-dish fa-fw fa-3x"></i></span>
+									<h4>Solutions</h4>
+									<h5><span class="h3 text-warning">77%</span>of 100%</h5>
+									<div class="progress pro-bar w-100 bg-white">
+										<div class="progress-bar l-green rounded" role="progressbar" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100" style="width: 77%;">
+										</div>
+									</div>
+								</div><!-- /news-div-inner -->
+						</div><!-- /news-div -->
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 news-div">
+								<div class="extra d-flex align-items-center justify-content-center">
+									<div class="extra-inner">
+										<img src="svg/item/1.svg" alt="sa" class="img-fluid one">
+										<img src="svg/item/2.svg" alt="sa" class="img-fluid two">
+										<img src="svg/item/3.svg" alt="sa" class="img-fluid three">
+									</div><!-- /extra-inner -->
+								</div><!-- /extra -->
+								<div class="news-div-inner text-left">
+									<span class="icon-inner"><i class="fas fa-rocket fa-fw fa-3x"></i></span>
+									<h4>Connection</h4>
+									<h5><span class="h3 text-warning">99%</span>of 100%</h5>
+									<div class="progress pro-bar bg-white">
+										<div class="progress-bar l-green rounded" role="progressbar" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100" style="width: 99%;">
+										</div>
+									</div>
+								</div><!-- /news-div-inner -->
+						</div><!-- /news-div -->
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 news-div">
+								<div class="extra d-flex align-items-center justify-content-center">
+									<div class="extra-inner">
+										<img src="svg/item/1.svg" alt="sa" class="img-fluid one">
+										<img src="svg/item/2.svg" alt="sa" class="img-fluid two">
+										<img src="svg/item/3.svg" alt="sa" class="img-fluid three">
+									</div><!-- /extra-inner -->
+								</div><!-- /extra -->
+								<div class="news-div-inner text-left">
+									<span class="icon-inner"><i class="fab fa-amazon fa-fw fa-3x"></i></span>
+									<h4>Amazon News</h4>
+									<h5><span class="h3 text-warning">86%</span>of 100%</h5>
+									<div class="progress pro-bar w-100 bg-white">
+										<div class="progress-bar l-green rounded" role="progressbar" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
+										</div>
+									</div>
+								</div><!-- /news-div-inner -->
+						</div><!-- /news-div -->
+						<!--********* WAVE PART **********-->
+						<div class="wave-part">
+							<img src="svg/wave.svg" alt="as" class="wave-img">
+						</div><!-- /wave-part -->
+						<div class="intro-part">
+							<div class="row no-gutters align-items-center">
+								<div class="col-12 col-md-6">
+									<div class="card-part">
+										<span class="text-white">
+											<h4>Infor<span class="text-warning">mation</span></h4>
+											<h4>P<span class="text-warning">a</span>rt</h4>
+
+										</span>
+										<img src="svg/undraw_static_assets_rpm6.svg" alt="s" class="img-fluid p-3">
+									</div>
+								</div>
+								<div class="col-12 col-md-6 align-self-start">
+						<div class="intro-part-inner row d-flex flex-column  text-white">
+							<div class="col-12">
+								<div class="inner-part-column">
+										<span><i class="fas fa-tools fa-fw fa-3x"></i></span>
+										<h2 class="mt-4">120k</h2>
+										<h3>Bugs fixed</h3>
+								</div><!-- /inner-part-column -->
+							</div>
+							<div class="col-12">
+								<div class="inner-part-column">
+									<span><i class="fas fa-soap fa-fw fa-3x"></i></span>
+									<h2 class="mt-4">132k</h2>
+									<h3>Submitted Trickers</h3>
+								</div><!-- /inner-part-column -->
+							</div>
+						</div><!-- /intro-part -->
+					</div><!-- col-12 -->
+				</div><!-- /row -->
+			</div><!-- /intro-part -->
+			
+			<div class="wave-part-second">
+					<img src="svg/wave.svg" alt="as" class="wave-img">
+			</div><!-- /wave-part -->
+			<div class="card-morris my-5 w-100">
+					<!--  -->
+					<!--  -->
+					<div id="chart">
+  					<div id="timeline-chart"></div>
+					</div>
+					<!--  -->
+					<!--  -->
+					<!--  -->
+       			 </div> <!-- card-morris -->
+			<div class="container py-5">
+					<div class="dashboard-part w-100 text-center mb-5">
+					<h3><span class="text-info">Cha</span>t pa<span class="text-warning">ge</span></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni maxime voluptate totam.</p>
+				</div><!-- /dashboard-part -->
+				<div class="chat-part row justify-content-center">
+					<div class="col-12 col-lg-6 px-5 mb-4">
+						<div class="inner-chat shadow-lg">
+								<div class="chat-top bg-warning">
+									<i class="fas fa-user"></i>
+									<h6>Username1</h6>
+								</div>	
+								<div class="chat-page bg-light">
+									<!-- javaScript -->
+								</div><!-- /chat-page -->
+								<div class="chat-down bg-warning">
+									<form>
+										<a href="#" class="text-white"><i class="fas fa-file"></i></a>
+										<input type="text" name="name" id="text" placeholder="Write something here..." class="form-control mx-4">
+										<button type="submit" class="btn btn-light rounded-circle"><i class="fas fa-chevron-up"></i></button>
+									</form>
+								</div><!-- /chat-down -->
+						</div> <!-- inner-chat -->
+					</div> <!-- col -->
+				</div><!-- /chat-part -->
+
+				<div class="card-morris my-5">
+					<!--  -->
+					<!--  -->
+					<div id="chart">
+  					<div id="timeline-chart"></div>
+					</div>
+					<!--  -->
+					<!--  -->
+					<!--  -->
+       			 </div> <!-- card-morris -->
+        		<h2>Top Countries Pupulation Data</h2>
+        		<canvas id="myChart" width="400" height="150"></canvas>
+        	<div class="row">
+        		<div class="col-12 col-lg-6">
+        			<h2>Top Sales Data</h2>
+        			<canvas id="myChartTwo" width="400" height="150">
+        		
+        			</canvas>
+        		</div>
+        		<div class="col-12 col-lg-6">
+        			<h2>Top Companies Data</h2>
+        			<canvas id="myChartThree" width="400" height="150">
+        		
+        			</canvas>
+        		</div>
+        	</div> <!-- row-chart -->
+				</div><!-- card -->	
+			</div><!-- /contaei -->
+			<div class="footer bg-info text-center text-white p-5">
+				<h2>Footer Side</h2>
+			</div><!-- /footer -->
+		</div><!-- /row  -->
+	</div><!-- /main -->
+	<!-- <p class="text-white p-3">.</p> -->
+  </div><!-- /container-fl -->
+</div><!-- /main -->
+<p class="px-5"></p>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+    <script src="charts.js"></script>
+    <script src="main.js"></script>
+
+    
+   <!--   <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+     <script src="main.js"></script> -->
+    
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+.forma-part {
+  width: 100%;
+  height: auto;
+}
+.forma-part-side {
+  border-radius: 25px;
+  padding: 10px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.upl-img {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  text-align: center;
+}
+.upl-img .con-wrapper {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  border: dashed 2px #c2cdda;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.upl-img .con-wrapper .image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.upl-img .con-wrapper .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.upl-img .con-wrapper .icon {
+  font-size: 100px;
+  color: #9658fe;
+}
+.upl-img .con-wrapper .text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+}
+.upl-img .con-wrapper #cancel-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  display: none;
+}
+.upl-img .con-wrapper .file-name {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #c2cdda;
+  color: #fff;
+  padding: 8px 0;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=styleForm.css.map */
